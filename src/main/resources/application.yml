@@ -1,0 +1,19 @@
+server:
+  port: 80
+application:
+  name: ^project.artifactId^
+  description: ^project.name^
+  version: ^project.version^
+spring:
+  application:
+    name: ^project.artifactId^
+  main:
+    banner-mode: "off"
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}/eureka/
