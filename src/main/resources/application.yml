@@ -13,7 +13,5 @@ eureka:
   instance:
     hostname: softwok-alb-1936994770.us-east-1.elb.amazonaws.com
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}/eureka/
