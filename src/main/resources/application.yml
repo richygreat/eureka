@@ -11,7 +11,7 @@ spring:
     banner-mode: "off"
 eureka:
   instance:
-    hostname: localhost
+    hostname: softwok-alb-1936994770.us-east-1.elb.amazonaws.com
   client:
     registerWithEureka: false
     fetchRegistry: false
