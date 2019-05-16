@@ -7,8 +7,6 @@ application:
 spring:
   application:
     name: ^project.artifactId^
-  main:
-    banner-mode: "off"
 eureka:
   instance:
     hostname: localhost
